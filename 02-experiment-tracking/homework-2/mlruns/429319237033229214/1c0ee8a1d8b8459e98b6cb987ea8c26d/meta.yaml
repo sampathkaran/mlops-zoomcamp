@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlops-zoomcamp/02-experiment-tracking/homework-2/mlruns/429319237033229214/1c0ee8a1d8b8459e98b6cb987ea8c26d/artifacts
+end_time: 1748253157666
+entry_point_name: ''
+experiment_id: '429319237033229214'
+lifecycle_stage: active
+run_id: 1c0ee8a1d8b8459e98b6cb987ea8c26d
+run_name: charming-lamb-704
+run_uuid: 1c0ee8a1d8b8459e98b6cb987ea8c26d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748253136494
+status: 3
+tags: []
+user_id: codespace

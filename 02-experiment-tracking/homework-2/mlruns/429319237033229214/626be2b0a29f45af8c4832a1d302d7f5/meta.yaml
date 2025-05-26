@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlops-zoomcamp/02-experiment-tracking/homework-2/mlruns/429319237033229214/626be2b0a29f45af8c4832a1d302d7f5/artifacts
+end_time: 1748252847562
+entry_point_name: ''
+experiment_id: '429319237033229214'
+lifecycle_stage: active
+run_id: 626be2b0a29f45af8c4832a1d302d7f5
+run_name: burly-shad-611
+run_uuid: 626be2b0a29f45af8c4832a1d302d7f5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748252810199
+status: 3
+tags: []
+user_id: codespace

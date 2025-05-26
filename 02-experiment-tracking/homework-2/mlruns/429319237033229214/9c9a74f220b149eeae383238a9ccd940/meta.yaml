@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlops-zoomcamp/02-experiment-tracking/homework-2/mlruns/429319237033229214/9c9a74f220b149eeae383238a9ccd940/artifacts
+end_time: 1748243548413
+entry_point_name: ''
+experiment_id: '429319237033229214'
+lifecycle_stage: active
+run_id: 9c9a74f220b149eeae383238a9ccd940
+run_name: clumsy-roo-855
+run_uuid: 9c9a74f220b149eeae383238a9ccd940
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748243520367
+status: 4
+tags: []
+user_id: codespace
