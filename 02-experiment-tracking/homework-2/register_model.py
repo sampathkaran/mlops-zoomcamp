@@ -14,7 +14,7 @@ RF_PARAMS = ['max_depth', 'n_estimators', 'min_samples_split', 'min_samples_leaf
 
 mlflow.set_tracking_uri("http://127.0.0.1:5000")
 mlflow.set_experiment(EXPERIMENT_NAME)
-mlflow.sklearn.autolog()
+#mlflow.sklearn.autolog()
 
 
 def load_pickle(filename):
@@ -79,14 +79,14 @@ def run_register_model(data_path: str, top_n: int):
     experiment = client.get_experiment_by_name(EXPERIMENT_NAME)
     best_run = client.search_runs(
         experiment_ids=experiment.experiment_id, 
-        order_by=["metrics.rmse ASC"])[0]
+        order_by=["metrics.test_rmse ASC"])[0]
     
-    for i in best_run:
-        print(f"run_id: {i.info.run_id}, rmse: {i.data.metrics['rmse']}")
+    # for i in best_run:
+    #     print(f"run_id: {i.info.run_id}, rmse: {i.data.metrics['rmse']}")
 
     # Register the best model
     run_id = best_run.info.run_id
-    model_uri = "runs:/{run_id}/model"
+    model_uri = f"runs:/{run_id}/model"
     mlflow.register_model(model_uri=model_uri, name="top_rmse_model")
 
 
